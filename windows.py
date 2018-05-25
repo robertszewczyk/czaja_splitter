@@ -85,7 +85,7 @@ class DnDFrame(wx.Frame):
     #----------------------------------------------------------------------
     def __init__(self):
         """Constructor"""
-        wx.Frame.__init__(self, parent=None, title="DnD Tutorial")
+        wx.Frame.__init__(self, parent=None, title="czaja splitter")
         panel = DnDPanel(self)
         self.Show()
 
