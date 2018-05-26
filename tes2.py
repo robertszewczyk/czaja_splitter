@@ -39,7 +39,7 @@ def askopenfilename():
                 if dirpath != "":
                     if not os.path.exists(filename+'/'+dirpath):
                         os.makedirs(filename+'/'+dirpath)
-                    shutil.move(str(filename)+'/'+str(f),filename+'/'+dirpath)
+                    shutil.move(str(filename)+'/'+str(f),filename+'/'+dirpath+'/'+str(list[nesting]))
 
 
 
