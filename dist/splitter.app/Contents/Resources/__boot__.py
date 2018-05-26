@@ -126,7 +126,7 @@ def _run():
     exec(compile(source, script, 'exec'), globals(), globals())
 
 
-DEFAULT_SCRIPT='/home/robert/src/czaja/tes2.py'
+DEFAULT_SCRIPT='/home/robert/src/czaja/splitter.py'
 SCRIPT_MAP={}
 try:
     _run()

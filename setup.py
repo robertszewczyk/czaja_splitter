@@ -7,7 +7,7 @@ Usage:
 
 from setuptools import setup
 
-APP = ['tes2.py']
+APP = ['splitter.py']
 DATA_FILES = []
 OPTIONS = {}
 
